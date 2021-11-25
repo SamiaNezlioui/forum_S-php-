@@ -1,0 +1,7 @@
+Inscription & connexion
+publier une question
+modifier une question
+Supprimer une question
+Recherche et afficher les questions 
+Repondre à une question
+Afficher le profil d'un utiisateur avec ses publication
