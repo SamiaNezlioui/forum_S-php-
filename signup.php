@@ -15,11 +15,11 @@
             <input type="text" class="form-control" name="pseudo">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Nom</label>
+            <label for="exampleInputPassword1" class="form-label">lastname</label>
             <input type="text" class="form-control" name="lastname">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Prénom</label>
+            <label for="exampleInputPassword1" class="form-label">firstname</label>
             <input type="text" class="form-control" name="firstname">
         </div>
         <div class="mb-3">
