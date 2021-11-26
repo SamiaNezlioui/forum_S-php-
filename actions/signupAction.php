@@ -32,8 +32,8 @@ if (isset($_POST['validate'])) {
              $getInfosOfThisUserReq = $bdd->prepare('SELECT id,pseudo, lastname, firstname FROM users WHERE lastname=? AND firstname=? AND pseudo =?');
              $getInfosOfThisUserReq->execute(array($user_lastname, $user_firstname, $user_pseudo));
                
-             //Authentifier l'utilisateur sur le site et récupérer les données 
              $userInfos =  $getInfosOfThisUserReq->fetch();
+              //Authentifier l'utilisateur sur le site et récupérer les données 
              $_SESSION['auth'] = true;
              $_SESSION['id'] = $userInfos['id'];
              $_SESSION['lastname'] = $userInfos['lastname'];
