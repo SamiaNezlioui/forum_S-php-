@@ -25,7 +25,7 @@ if (isset($_POST['validate'])) {
                  ':pseudo'=>$_POST['pseudo'], 
                  ':lastname'=> $_POST['lastname'],
                  ':firstname'=>$_POST['firstname'], 
-                  ':password'=> password_hash($_POST['password'], PASSWORD_DEFAULT)
+                 ':password'=> password_hash($_POST['password'], PASSWORD_DEFAULT)
                 ));
                 
              //recuperer les infos de l'utilisateur

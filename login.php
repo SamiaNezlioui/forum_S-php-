@@ -1,5 +1,5 @@
 
-<?php require('actions/loginAction.php'); ?>
+<?php require('actions/users/loginAction.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">

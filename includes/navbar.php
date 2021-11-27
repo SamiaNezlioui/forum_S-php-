@@ -10,7 +10,7 @@
           <a class="nav-link" href="index.php">Questions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="questions_publier">Publier une question</a>
+          <a class="nav-link" href="questions_publier.php">Publier une question</a>
         </li>
       </ul>
     </div>
